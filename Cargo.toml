@@ -1,0 +1,18 @@
+[package]
+name = "Rust"
+version = "0.1.0"
+authors = ["clowread"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasm-bindgen = "0.2.48"
+num-bigint = "0.2.2"
+num-traits = "0.2.8"
+num-integer = "0.1.41"
+rand = "0.5.5"
+
